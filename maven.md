@@ -50,10 +50,19 @@ maven学习
   C:\worksp> mvn archetype:generate -DgroupId=com.yiibai -DartifactId=NumberGenerator -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
   ```
   
-  3、在IntelliJ中加载maven、配置文件、本地库
-  ![在intellij中加载maven]()
+  3、在IntelliJ中加载maven、配置文件、本地库<br>
   
-### 四
+  ![在intellij中加载maven](https://github.com/cy22117888/hello-world/blob/master/maven/intellij%E4%B8%AD%E5%8A%A0%E8%BD%BDmaven.PNG)
+  
+### 四、maven中央储存库
+  在你的maven项目中，maven会根据pom.xml文件中的内容来加载该项目需要的依赖。<br>
+  优先在本地库中查找依赖，当本地库中没有时，会默认的到中央储存库中（http://search.maven.org/）下载所需依赖<br>
+  如何自定义中央储存库？
+    1、在settings.xml中设置
+    
+    ![配置中央储存库]()
+  
+### 五、
   
 
 
